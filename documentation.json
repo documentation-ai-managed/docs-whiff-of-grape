@@ -1,0 +1,125 @@
+{
+  "name": "Whiff of Grape",
+  "initialRoute": "introduction",
+  "colors": {
+    "light": {
+      "brand": "#a2a6a2"
+    },
+    "dark": {
+      "brand": "#b9bcb9"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "icon": "book",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "icon": "rocket",
+            "pages": [
+              {
+                "title": "Introduction",
+                "path": "introduction",
+                "icon": "home"
+              },
+              {
+                "title": "Getting Started",
+                "path": "getting-started",
+                "icon": "play"
+              }
+            ]
+          },
+          {
+            "group": "Events",
+            "icon": "calendar",
+            "pages": [
+              {
+                "title": "Events Guide",
+                "path": "events-guide",
+                "icon": "book-open"
+              }
+            ]
+          },
+          {
+            "group": "Membership",
+            "icon": "users",
+            "pages": [
+              {
+                "title": "Membership FAQ",
+                "path": "membership-faq",
+                "icon": "help-circle"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "icon": "code",
+        "groups": [
+          {
+            "group": "Endpoints",
+            "openapi": "openapi.yaml"
+          }
+        ]
+      },
+      {
+        "tab": "Help Center",
+        "icon": "help-circle",
+        "pages": [
+          {
+            "title": "Help Center",
+            "path": "help-center",
+            "icon": "home"
+          },
+          {
+            "group": "FAQs",
+            "icon": "help-circle",
+            "expandable": false,
+            "pages": [
+              {
+                "title": "How to Join",
+                "path": "help-center/faq/how-to-join"
+              }
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "icon": "alert-circle",
+            "expandable": false,
+            "pages": [
+              {
+                "title": "Not Getting Invite",
+                "path": "help-center/troubleshooting/not-getting-invite"
+              }
+            ]
+          },
+          {
+            "group": "Guides",
+            "icon": "book-open",
+            "expandable": false,
+            "pages": [
+              {
+                "title": "RSVP to Event",
+                "path": "help-center/guides/rsvp-to-event"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "icon": "clock",
+        "pages": [
+          {
+            "title": "Release History",
+            "path": "changelog",
+            "icon": "history"
+          }
+        ]
+      }
+    ]
+  }
+}
